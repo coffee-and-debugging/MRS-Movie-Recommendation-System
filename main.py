@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 from function import recommend
 
-st.markdown('<marquee><p style="text-align: center; font-family: Courier; color: white; font-size: 30px;">MRS: Movie Recommendation System</p></marquee>', unsafe_allow_html=True)
+st.markdown('<marquee><p style="text-align: center; font-family: Courier; color: red; font-size: 30px;">MRS: Movie Recommendation System</p></marquee>', unsafe_allow_html=True)
 
 movies = pickle.load(open("movie_list.pkl", "rb"))
 similarity = pickle.load(open("similarity.pkl", "rb"))
