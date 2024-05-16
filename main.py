@@ -7,7 +7,7 @@ st.markdown('<marquee><p style="text-align: center; font-family: Courier; color:
 movies = pickle.load(open("movie_list.pkl", "rb"))
 similarity = pickle.load(open("similarity.pkl", "rb"))
 movie_titles = movies['title'].values
-selected_movie = st.selectbox("Select a movie:", movie_titles)
+selected_movie = st.selectbox("Select a movie you have watched:", movie_titles)
 if st.button("Recommend me! "):
     rec_names, rec_posters = recommend(selected_movie, movies, similarity)
     cols = st.columns(5)
