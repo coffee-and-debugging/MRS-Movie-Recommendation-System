@@ -19,7 +19,7 @@ A content-based movie recommendation system built with Streamlit that suggests s
 ## 📸 Screenshot
 
 ### Main Interface
-![Movie Recommendation System Interface](app.png)
+![Movie Recommendation System Interface](image/app.png)
 
 *Screenshot showing the application interface with movie selection dropdown and recommendation results*
 
